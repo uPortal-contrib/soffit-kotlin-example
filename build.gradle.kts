@@ -1,13 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 buildscript {
-    val kotlinVersion = "1.1.2"
-    val springBootVersion = "2.0.0.BUILD-SNAPSHOT"
+    val kotlinVersion = "1.1.3"
+    val springBootVersion = "2.0.0.M3"
     repositories {
         mavenCentral()
         mavenLocal()
-        gradleScriptKotlin()
-        maven { url = uri("https://repo.spring.io/snapshot") }
         maven { url = uri("https://repo.spring.io/milestone") }
     }
     dependencies {
@@ -34,21 +32,19 @@ tasks.withType<KotlinCompile> {
 repositories {
     mavenCentral()
     mavenLocal()
-    gradleScriptKotlin()
-    maven { url = uri("https://repo.spring.io/snapshot") }
     maven { url = uri("https://repo.spring.io/milestone") }
 }
 
-val kotlinVersion = "1.1.2"
-val uPortalVersion = "5.0.0-M1"
+val kotlinVersion = "1.1.3"
+val uPortalVersion = "5.0.0-M4"
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web")
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlinVersion")
-    compile("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
-    compile("org.jasig.portal:uPortal-soffit-renderer:$uPortalVersion")
+    "compile"("org.springframework.boot:spring-boot-starter-web")
+    "compile"("org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlinVersion")
+    "compile"("org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion")
+    "compile"("org.jasig.portal:uPortal-soffit-renderer:$uPortalVersion")
 
-    testCompile("org.springframework.boot:spring-boot-starter-test")
+    "testCompile"("org.springframework.boot:spring-boot-starter-test")
 
     "providedRuntime"("org.apache.tomcat.embed:tomcat-embed-jasper")
     "providedRuntime"("org.springframework.boot:spring-boot-starter-tomcat")
