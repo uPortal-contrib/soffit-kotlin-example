@@ -1,11 +1,10 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 buildscript {
-    val kotlinVersion = "1.1.3"
-    val springBootVersion = "2.0.0.M3"
+    val kotlinVersion = "1.2.0"
+    val springBootVersion = "2.0.0.M7"
     repositories {
         mavenCentral()
-        mavenLocal()
         maven { url = uri("https://repo.spring.io/milestone") }
     }
     dependencies {
@@ -35,8 +34,8 @@ repositories {
     maven { url = uri("https://repo.spring.io/milestone") }
 }
 
-val kotlinVersion = "1.1.3"
-val uPortalVersion = "5.0.0-M4"
+val kotlinVersion = "1.2.0"
+val uPortalVersion = "5.0.4"
 
 dependencies {
     "compile"("org.springframework.boot:spring-boot-starter-web")
