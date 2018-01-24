@@ -1,6 +1,7 @@
 # Soffit Kotlin Example
 
-[![Build Status](https://travis-ci.org/ChristianMurphy/soffit-kotlin-example.svg?branch=master)](https://travis-ci.org/ChristianMurphy/soffit-kotlin-example)
+[![Linux Build Status](https://travis-ci.org/ChristianMurphy/soffit-kotlin-example.svg?branch=master)](https://travis-ci.org/ChristianMurphy/soffit-kotlin-example)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/qpl2mx9x8hslt0lr?svg=true)](https://ci.appveyor.com/api/projects/status/qpl2mx9x8hslt0lr/branch/master?svg=true)
 
 A simple soffit written with Spring 5, Gradle, and Kotlin.
 
