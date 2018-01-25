@@ -17,3 +17,11 @@ A simple soffit written with Spring 5, Gradle, and Kotlin.
 ## Start
 
 From a terminal to the *soffit-kotlin-example* folder, run `./gradlew bootRun` or `gradlew.bat bootRun`
+
+## uPortal Contrib
+
+For purposes of this project's participation in uPortal's 
+[uPortal Ecosystem Intake Process][],
+the "Project Lead" is (uPortal Committer) Christian Murphy.
+
+[uPortal Ecosystem Intake Process]: https://docs.google.com/document/d/18iG8oAPaADzgrk4JMok_Byg0DiPmuNS9S8RRdzSF0nQ/edit
