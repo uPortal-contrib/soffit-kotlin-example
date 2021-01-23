@@ -35,7 +35,7 @@ repositories {
 }
 
 val kotlinVersion = "1.2.0"
-val uPortalVersion = "5.0.4"
+val uPortalVersion = "5.9.0"
 
 dependencies {
     "compile"("org.springframework.boot:spring-boot-starter-web")
