@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 buildscript {
-    val kotlinVersion = "1.2.0"
+    val kotlinVersion = "2.0.21"
     val springBootVersion = "2.0.0.M7"
     repositories {
         mavenCentral()
@@ -34,7 +34,7 @@ repositories {
     maven { url = uri("https://repo.spring.io/milestone") }
 }
 
-val kotlinVersion = "1.2.0"
+val kotlinVersion = "2.0.21"
 val uPortalVersion = "5.16.0"
 
 dependencies {
